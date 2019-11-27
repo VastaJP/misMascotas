@@ -1,4 +1,4 @@
-package clasesDeObjetosDelSistema;
+package clases;
 
 public class Usuario{
 	

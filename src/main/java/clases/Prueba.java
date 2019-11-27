@@ -1,4 +1,4 @@
-package clasesDeObjetosDelSistema;
+package clases;
 
 import javax.persistence.EntityManager;
 import modelo.Usuario;
