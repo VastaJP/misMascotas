@@ -9,7 +9,7 @@ import javax.persistence.*;
 public class EventoVisita {
 	
 	@Id @GeneratedValue(generator="increment")
-	@Column(name="id_evento")
+	@Column(name="id_atencion")
 	private Long id;
 	
 	@Column(name="tipo")
@@ -18,8 +18,20 @@ public class EventoVisita {
 	@Column(name="fecha")
 	private Date fecha;
 	
-	@Column(name="fecha")
-	private String descripcion;
+	@Column(name="peso")
+	private Double peso;
+	
+	@Column(name="motivo")
+	private String motivo;
+	
+	@Column(name="diagnostico")
+	private String diagnostico;
+	
+	@Column(name="indicaciones")
+	private String indicaciones;
+	
+	@Column(name="id_veterinario")
+	private Long id_veterinario;
 	
 	@Column(name="id_mascota")
 	private Long id_mascota;
@@ -48,12 +60,44 @@ public class EventoVisita {
 		this.fecha = fecha;
 	}
 
-	public String getDescripcion() {
-		return descripcion;
+	public Double getPeso() {
+		return peso;
 	}
 
-	public void setDescripcion(String descripcion) {
-		this.descripcion = descripcion;
+	public void setPeso(Double peso) {
+		this.peso = peso;
+	}
+
+	public String getMotivo() {
+		return motivo;
+	}
+
+	public void setMotivo(String motivo) {
+		this.motivo = motivo;
+	}
+
+	public String getDiagnostico() {
+		return diagnostico;
+	}
+
+	public void setDiagnostico(String diagnostico) {
+		this.diagnostico = diagnostico;
+	}
+
+	public String getIndicaciones() {
+		return indicaciones;
+	}
+
+	public void setIndicaciones(String indicaciones) {
+		this.indicaciones = indicaciones;
+	}
+
+	public Long getId_veterinario() {
+		return id_veterinario;
+	}
+
+	public void setId_veterinario(Long id_veterinario) {
+		this.id_veterinario = id_veterinario;
 	}
 
 	public Long getId_mascota() {

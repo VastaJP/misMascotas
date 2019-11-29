@@ -1,9 +1,19 @@
 package modelo;
 
-import javax.persistence.*;	
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+
+import javax.persistence.Id;
+import javax.persistence.NamedNativeQuery;
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+
+
 
 @Entity
 @Table(name="usuarios")
+@NamedNativeQuery(name="usuarios.findAll", query="SELECT * FROM usuarios")
 public class Usuario {
 	
 	@Id @GeneratedValue(generator="increment")

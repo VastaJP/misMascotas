@@ -30,8 +30,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/EclipseLink 2.5.2"/>
-	<classpathentry kind="lib" path="C:/Users/Juampi Vasta/Desktop/TTPS/hibernate-entitymanager-5.4.9.Final.jar" sourcepath="C:/Users/Juampi Vasta/Desktop/TTPS/hibernate-entitymanager-5.4.9.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juampi Vasta/Desktop/TTPS/mysql-connector-java-8.0.18.jar" sourcepath="C:/Users/Juampi Vasta/Desktop/TTPS/mysql-connector-java-8.0.18.jar"/>
 	<classpathentry kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/MySQL JDBC Driver"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
