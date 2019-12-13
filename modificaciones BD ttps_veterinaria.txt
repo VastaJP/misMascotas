@@ -1,0 +1,9 @@
+/*ACTUALIZAR NOMBRES BD*/
+ALTER TABLE `usuarios` CHANGE `id_usuario` `ID_usuario` INT(255) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `consultorios` CHANGE `id_consultorio` `ID_usuario` INT(255) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `eventos_atenciones` CHANGE `id_evento` `ID_evento` INT(255) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `eventos_visitas` CHANGE `id_evento` `ID_evento` INT(255) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `fichas` CHANGE `id_ficha` `ID_ficha` INT(255) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `recordatorios` CHANGE `id_recordatorio` `ID_recordatorio` INT(255) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `roles` CHANGE `id` `ID_rol` INT(255) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `usuario_tiene_rol` CHANGE `id` `ID_usuario_rol` INT(255) NOT NULL AUTO_INCREMENT;

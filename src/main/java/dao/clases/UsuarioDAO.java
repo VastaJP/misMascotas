@@ -1,5 +1,6 @@
 package dao.clases;
+import modelo.Usuario;
 
-public interface UsuarioDAO {
-	//Metodos abstractos del usuario
+public interface UsuarioDAO extends GenericDAO<Usuario> {
+	//Metodos abstractos del Usuario
 }
